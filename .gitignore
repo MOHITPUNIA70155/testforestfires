@@ -1,4 +1,19 @@
+# Ignore everything in this repository
+/*
+
+# Keep gitignore
+!/.gitignore
+
+# Keep only the end-to-end project
+!/29_end_to_end_imp/
+!/29_end_to_end_imp/**
+
+# Ignore Python cache
 __pycache__/
 *.pyc
+
+# Ignore macOS files
 .DS_Store
+
+# Ignore virtual environments
 venv/
